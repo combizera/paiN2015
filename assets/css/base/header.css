@@ -1,0 +1,26 @@
+.cabecalho {
+  background-color: #fff;
+  font-family: "Fontaine", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 70px;
+  height: 80px;
+  align-items: center;
+}
+
+.cabecalho ul {
+  display: flex;
+  gap: 0.5rem;
+}
+.cabecalho a {
+  padding: 1rem;
+  transition: 0.3s;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  letter-spacing: 0.1em;
+}
+
+.cabecalho a:hover {
+  background-color: #302e2e;
+  color: #fff;
+}

@@ -1,0 +1,88 @@
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: "Fontaine";
+  src: url("./../../fontaine.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.titulo {
+  font-family: "Fontaine", sans-serif;
+  font-size: 3rem;
+  letter-spacing: 0.1em;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.titulo h2 {
+  grid-row: 1 / -1;
+  margin-right: 1rem;
+}
+
+.det-verm {
+  width: 100%;
+  background-color: #ee283f;
+  position: relative;
+  height: 12px;
+  top: 50%;
+  transform: translateY(-100%);
+}
+
+.det-peb {
+  background-color: #000;
+  position: relative;
+  height: 12px;
+  width: 100%;
+  grid-column: 2;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.det-b {
+  background-color: #fff;
+  position: relative;
+  height: 12px;
+  width: 100%;
+  grid-column: 2;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.tit-time {
+  font-family: "Fontaine", sans-serif;
+  font-size: 3rem;
+  letter-spacing: 0.1em;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: 1fr 1fr;
+}
+
+.tit-time h3 {
+  grid-column: 2;
+  grid-row: 1 / -1;
+  margin-left: 1rem;
+}
+
+.det-peb2 {
+  background-color: #000;
+  position: relative;
+  height: 12px;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  grid-column: 1;
+}
+
+.det-verm2 {
+  width: 100%;
+  background-color: #ee283f;
+  position: relative;
+  height: 12px;
+  top: 50%;
+  grid-column: 1;
+}

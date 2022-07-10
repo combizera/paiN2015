@@ -1,0 +1,74 @@
+.sec1-bg {
+  background: url("./../../img/detalhe1.svg") no-repeat bottom 10px left 20px;
+  padding: 40px 70px;
+  box-sizing: border-box;
+  padding-bottom: 80px;
+}
+
+.sec1 {
+  background: #302e2e;
+}
+
+.sec1 img {
+  object-fit: cover;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.sec1-ft img {
+  opacity: 0.5;
+  transition: 0.3s;
+}
+.sec1-ft img:hover {
+  opacity: 0.9;
+}
+
+.sec1-container {
+  background-color: #fff;
+  margin-top: 2rem;
+  padding: 2rem 2rem 0px 2rem;
+  border-radius: 5px;
+  font-family: "Fontaine", sans-serif;
+  box-shadow: inset 0px -48px #302e2e;
+}
+
+.sec1 h3 {
+  font-size: 2rem;
+  line-height: 55px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  margin: 1.5rem 0px;
+  color: #ee283f;
+}
+
+.sec1-txt {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.3;
+  color: #302e2e;
+  letter-spacing: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.sec1-txt-p p {
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+}
+
+.sec1-btn {
+  font-family: "Fontaine", sans-serif;
+  font-size: 2rem;
+  color: #ee283f;
+  border: 2px solid #ee283f;
+  padding: 0.5rem 1rem;
+  letter-spacing: 3px;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.sec1-btn:hover {
+  color: #fff;
+  background-color: #000;
+  border: 2px solid #000;
+}

@@ -1,0 +1,69 @@
+.secNum-bg {
+  background-color: #302e2e;
+  margin-top: 2rem;
+  color: #fff;
+}
+
+.tit-num {
+  padding: 2rem 70px;
+}
+
+.secNum-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0px 70px;
+  gap: 20px;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 5rem;
+}
+.secNum-card img {
+  max-width: 100%;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.card-txt h3 {
+  font-weight: 700;
+  font-size: 1.75rem;
+  line-height: 2rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.card-txt p {
+  font-weight: 300;
+  line-height: 1.2rem;
+  color: #ccc;
+  margin-top: 0.5rem;
+}
+
+.card-info {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+}
+
+.card-info-icon {
+  grid-column: 1;
+  grid-row: 1 / -1;
+  margin-right: 1rem;
+}
+
+.card-info-tit {
+  grid-column: 2;
+  grid-row: 1;
+
+  font-weight: bold !important;
+  font-size: 1.75rem;
+  background: linear-gradient(180deg, #da83f9 0%, #6fb1d7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.card-info-desc {
+  grid-column: 2;
+  grid-row: 2;
+}

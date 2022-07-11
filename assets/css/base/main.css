@@ -1,18 +1,19 @@
+.sec1 {
+  background: #302e2e;
+}
+
 .sec1-bg {
-  background: url("./../../img/detalhe1.svg") no-repeat bottom 10px left 20px;
+  background: url("./../../img/detalhe1.svg") no-repeat bottom 20px left 20px;
   padding: 40px 70px;
   box-sizing: border-box;
   padding-bottom: 80px;
-}
-
-.sec1 {
-  background: #302e2e;
 }
 
 .sec1 img {
   object-fit: cover;
   border-radius: 5px;
   width: 100%;
+  box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.5);
 }
 
 .sec1-ft img {

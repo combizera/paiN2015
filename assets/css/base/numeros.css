@@ -2,10 +2,11 @@
   background-color: #302e2e;
   margin-top: 2rem;
   color: #fff;
+  padding-bottom: 5rem;
 }
 
 .tit-num {
-  padding: 2rem 70px;
+  padding: 5rem 70px 2rem 70px;
 }
 
 .secNum-card {
@@ -14,8 +15,9 @@
   margin: 0px 70px;
   gap: 20px;
   font-family: "Roboto", sans-serif;
-  margin-bottom: 5rem;
+  margin-top: 3rem;
 }
+
 .secNum-card img {
   max-width: 100%;
   border-radius: 5px;
@@ -24,7 +26,7 @@
 
 .card-txt h3 {
   font-weight: 700;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   line-height: 2rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -32,17 +34,25 @@
 
 .card-txt p {
   font-weight: 300;
-  line-height: 1.2rem;
   color: #ccc;
-  margin-top: 0.5rem;
+}
+.card-txt span {
+  color: #ccc;
+  margin-bottom: 2rem;
+  display: block;
+  font-weight: 100;
+}
+
+.card-destaque span {
+  color: #545353;
 }
 
 .card-info {
-  margin-top: 1rem;
   display: grid;
   grid-template-columns: auto 1fr;
   grid-template-rows: 1fr 1fr;
   align-items: center;
+  margin-bottom: 1rem;
 }
 
 .card-info-icon {
@@ -56,8 +66,21 @@
   grid-row: 1;
 
   font-weight: bold !important;
-  font-size: 1.75rem;
+  font-size: 1.25rem;
+  line-height: 1.2rem !important;
   background: linear-gradient(180deg, #da83f9 0%, #6fb1d7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.card-info-tit-d {
+  grid-column: 2;
+  grid-row: 1;
+
+  font-weight: bold !important;
+  font-size: 1.5rem;
+  line-height: 1.6rem !important;
+  background: linear-gradient(180deg, #cd8055 0%, #e06060 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -66,4 +89,24 @@
 .card-info-desc {
   grid-column: 2;
   grid-row: 2;
+}
+
+.card-destaque {
+  background: linear-gradient(to right, #302e2e 30%, #fff 0%);
+  color: #302e2e;
+  position: relative;
+}
+
+.card-destaque:first-child {
+  padding: 2rem 0px;
+}
+.card-destaque p {
+  color: #545353;
+}
+
+.bg-detalhe img {
+  border-radius: 0px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
 }

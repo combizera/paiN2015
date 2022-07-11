@@ -1,0 +1,38 @@
+.footer-bg {
+  background: url("./../../img/footer.png") no-repeat;
+}
+
+.footer-info {
+  padding: 2rem 0px;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-info a {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+}
+.footer-info a:hover {
+  text-decoration: underline;
+}
+
+.footer-info p {
+  opacity: 0.1;
+}
+
+.footer-info-sociais ul {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.footer-info-sociais a {
+  opacity: 0.3;
+  transition: 0.3s;
+}
+.footer-info-sociais a:hover {
+  opacity: 1;
+}

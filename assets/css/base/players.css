@@ -52,3 +52,17 @@
   padding: 0.25rem 1rem;
   letter-spacing: 4px;
 }
+
+/* Mobile */
+@media screen and (max-width: 980px) {
+  .secTime {
+    padding: 2rem 10px;
+    margin-top: 0rem;
+  }
+
+  .secTime-jogadores ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+}

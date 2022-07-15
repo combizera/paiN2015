@@ -86,3 +86,44 @@ html {
   top: 50%;
   grid-column: 1;
 }
+
+/* Mobile */
+@media screen and (max-width: 980px) {
+  .titulo {
+    font-size: 2rem;
+    letter-spacing: 0.05rem;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .det-verm {
+    height: 7px;
+  }
+
+  .det-peb {
+    height: 7px;
+  }
+
+  .tit-time {
+    font-size: 2rem;
+    letter-spacing: 0.05em;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .tit-time h3 {
+    grid-column: 2;
+    grid-row: 1 / -1;
+    margin: 0.3rem 0.5rem 0px 0.5rem;
+  }
+
+  .det-b {
+    height: 7px;
+    width: 100%;
+    grid-column: 2;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}

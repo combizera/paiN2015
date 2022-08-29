@@ -10,6 +10,11 @@ html {
   font-style: normal;
 }
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto !important;
+}
+
 .titulo {
   font-family: "Fontaine", sans-serif;
   font-size: 3rem;

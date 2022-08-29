@@ -14,35 +14,27 @@
 </head>
 
 <body>
-    <header class="header">
-        <div class="header__logo">
-            <a href="index.html">
-                <img src="./assets/img/logo.svg" alt="Logotipo paiN gaming"></a>
+    <header id="header" class="container">
+        <div class="header__logo "><a href="./index.html">
+                <img src="./assets/img/logo.svg" alt="Logotipo paiN Gaming"></a>
         </div>
-        <div class="header__hamb">
-
-        </div>
-
-        <ul class="header__nav active">
-            <li>
-                <a href="#historia">Historia</a>
-            </li>
-            <li>
-                <a href="#numeros">numeros</a>
-            </li>
-            <li>
-                <a href="#recordes">recordes</a>
-            </li>
-            <li><a href="#wallpapers">wallpapers</a></li>
-            <li><a href="#contato">contato</a></li>
-        </ul>
+        <nav id="header__nav" aria-label="primária">
+            <button id="btn__mobile" aria-controls="header__menu" aria-expanded="false" aria-haspopup="true" aria-label="Abrir Menu">Menu
+                <span class="hamburguer"></span>
+            </button>
+            <ul id="header__menu" class="header__menu" role="menu">
+                <li class="header__nav-item"><a class="header__link" href="#historia">historia</a></li>
+                <li class="header__nav-item"><a class="header__link" href="#jogadores">jogadores</a></li>
+                <li class="header__nav-item"><a class="header__link" href="#numeros">numeros</a></li>
+                <li class="header__nav-item"><a class="header__link" href="#contato">contato</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
-
-        <section class="sec1">
+        <section id="historia" class="sec1" aria-label="Introdução ao site">
             <div class="sec1-bg">
                 <div class="sec1-ft"><img src="./assets/img/pain.jpg" alt="Pain comemorando o título"></div>
-                <div class="sec1-container">
+                <div id="sec1-container" class="sec1-container">
                     <div class="titulo">
                         <h2>muito mais que um time</h2>
                         <div class="det-peb"></div>
@@ -67,65 +59,65 @@
             </div>
         </section>
 
-        <section class="secTime">
-            <div class="secTime-bg">
-                <div class="tit-time">
-                    <div class="tit-time-detalhe">
-                        <div class="det-peb2"></div>
-                        <div class="det-verm2"></div>
-                    </div>
-                    <h3>O verdeiro dream team</h3>
+        <section id="jogadores" class="secTime" aria-label="Jogadores de 2015>
+            <div class=" secTime-bg">
+            <div class="tit-time">
+                <div class="tit-time-detalhe">
+                    <div class="det-peb2"></div>
+                    <div class="det-verm2"></div>
                 </div>
-                <div class="secTime-jogadores">
-                    <ul>
-                        <li>
-                            <div class="jogadores-nome">
-                                <p>kami</p>
-                            </div>
-                            <a href="https://www.youtube.com/watch?v=2Ara7254Pfo&ab_channel=paiNGaming">
-                                <div class="casca">
-                                    <img src="./assets/img/kami.jpg" alt="Kamikat, midlaner da paiN">
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <div class="jogadores-nome">
-                                <p>brtt</p>
-                            </div>
+                <h3>O verdeiro dream team</h3>
+            </div>
+            <div class="secTime-jogadores">
+                <ul>
+                    <li>
+                        <div class="jogadores-nome">
+                            <p>kami</p>
+                        </div>
+                        <a href="https://www.youtube.com/watch?v=2Ara7254Pfo&ab_channel=paiNGaming">
                             <div class="casca">
-                                <a href="https://www.youtube.com/watch?v=FFhfHXkRSJU&ab_channel=TheCarry"><img src="./assets/img/brtt.jpg" alt="Brtt, atirador da paiN"></a>
+                                <img src="./assets/img/kami.jpg" alt="Kamikat, midlaner da paiN">
                             </div>
-                        </li>
-                        <li>
-                            <div class="jogadores-nome">
-                                <p>mylon</p>
-                            </div>
-                            <a href="https://www.youtube.com/watch?v=hPqOYFODcvI&ab_channel=paiNGaming"><img src="./assets/img/mylon.jpg" alt="Mylon, toplane da paiN"></a>
-                        </li>
-                        <li>
-                            <div class="jogadores-nome">
-                                <p>sirT</p>
-                            </div>
-                            <a href="https://www.youtube.com/watch?v=U8lagRfW-30&ab_channel=paiNGaming"><img src="./assets/img/sirt.jpg" alt="Sirt, caçador da paiN"></a>
-                        </li>
-                        <li>
-                            <div class="jogadores-nome">
-                                <p>Dioud</p>
-                            </div>
-                            <a href="https://www.youtube.com/watch?v=DUUChkV233U&ab_channel=Ownando"><img src="./assets/img/dioud.jpg" alt="Dioud, suporte francês da paiN"></a>
-                        </li>
-                        <li>
-                            <div class="jogadores-nome">
-                                <p>miT</p>
-                            </div>
-                            <a href="https://www.youtube.com/watch?v=1rYyN0V-H0g&ab_channel=paiNGaming"><img src="./assets/img/mit.jpg" alt="Mit, coach da paiN"></a>
-                        </li>
-                    </ul>
-                </div>
+                        </a>
+                    </li>
+                    <li>
+                        <div class="jogadores-nome">
+                            <p>brtt</p>
+                        </div>
+                        <div class="casca">
+                            <a href="https://www.youtube.com/watch?v=FFhfHXkRSJU&ab_channel=TheCarry"><img src="./assets/img/brtt.jpg" alt="Brtt, atirador da paiN"></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="jogadores-nome">
+                            <p>mylon</p>
+                        </div>
+                        <a href="https://www.youtube.com/watch?v=hPqOYFODcvI&ab_channel=paiNGaming"><img src="./assets/img/mylon.jpg" alt="Mylon, toplane da paiN"></a>
+                    </li>
+                    <li>
+                        <div class="jogadores-nome">
+                            <p>sirT</p>
+                        </div>
+                        <a href="https://www.youtube.com/watch?v=U8lagRfW-30&ab_channel=paiNGaming"><img src="./assets/img/sirt.jpg" alt="Sirt, caçador da paiN"></a>
+                    </li>
+                    <li>
+                        <div class="jogadores-nome">
+                            <p>Dioud</p>
+                        </div>
+                        <a href="https://www.youtube.com/watch?v=DUUChkV233U&ab_channel=Ownando"><img src="./assets/img/dioud.jpg" alt="Dioud, suporte francês da paiN"></a>
+                    </li>
+                    <li>
+                        <div class="jogadores-nome">
+                            <p>miT</p>
+                        </div>
+                        <a href="https://www.youtube.com/watch?v=1rYyN0V-H0g&ab_channel=paiNGaming"><img src="./assets/img/mit.jpg" alt="Mit, coach da paiN"></a>
+                    </li>
+                </ul>
+            </div>
             </div>
         </section>
 
-        <section class="secNum">
+        <section id="numeros" aria-label="Números da paiN Gaming em 2015" class="secNum">
             <div class="secNum-bg">
                 <div class="titulo tit-num">
                     <h2>numeros de respeito</h2>
@@ -133,7 +125,7 @@
                     <div class="det-verm"></div>
                 </div>
 
-                <div class="secNum-card">
+                <div id="num-card1" class="secNum-card">
                     <div><img src="./assets/img/titulo.jpg" alt="time da paiN levantando o troféu"></div>
                     <div class="card-txt">
                         <h3>2º split do CBLOL de 2015</h3>
@@ -163,7 +155,7 @@
                     </div>
                 </div>
 
-                <div class="card-destaque">
+                <div id="num-card2" class="card-destaque">
                     <div class="secNum-card card-destaque">
                         <div>
                             <img src="./assets/img/wildcard.jpg" alt="time da paiN levantando o troféu">
@@ -232,11 +224,10 @@
         </section>
     </main>
 
-    <footer>
+    <footer id="contato">
         <div class="footer-bg">
             <div class="footer-info">
-                <a href="" class="">Desenvolvido por @combizera</a>
-                <p>Me contrate (=</p>
+                <a href="" class="">Desenvolvido por @solary</a>
                 <div class="footer-info-sociais">
                     <ul>
                         <li>
@@ -269,6 +260,12 @@
             </div>
         </div>
     </footer>
+
+    <!-- Bib. GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js" integrity="sha512-GQ5/eIhs41UXpG6fGo4xQBpwSEj9RrBvMuKyE2h/2vw3a9x85T1Bt0JglOUVJJLeyIUl/S/kCdDXlE/n7zCjIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Bib. ScrollTrigger -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/ScrollTrigger.min.js" integrity="sha512-6BvDODEWgjWWyBrg6YFio6xmzgKWpf54tDlnCtG05m++/jgh/7jQcx6jUJrq44lB84cf68FzYiT0LipabA5g8g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="script.js"></script>
 </body>
 
